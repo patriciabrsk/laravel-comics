@@ -104,3 +104,77 @@ header {
     }
   }
 
+  div#footer {
+    background-image: url("../assets/img/footer-bg.jpg");
+    div.footer-wrapper {
+      font-size: 0.8rem;
+      justify-content: space-around;
+      div.links-wrapper {
+        background-image: url("../assets/img/dc-logo-bg.png");
+        background-repeat: no-repeat;
+        background-size: 48%;
+        background-position: center right;
+        div.links-list {
+          padding: 22px 0;
+          margin-right: 15px;
+          h4 {
+            color: white;
+            margin-bottom: 0.6rem;
+          }
+          ul {
+            padding-left: 0;
+            margin-bottom: 0.6rem;
+            li {
+              list-style-type: none;
+              a {
+                text-decoration: none;
+                font-size: 0.7rem;
+                color: #797979;
+                &:hover {
+                  cursor: pointer;
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  div#footer-nav {
+    background-color: #303030;
+    color: white;
+    div.nav-wrapper {
+      align-items: center;
+      justify-content: space-between;
+      height: 12vh;
+      div.sign-up {
+        a {
+          text-decoration: none;
+          color: white;
+          padding: 10px;
+          border: 2px solid $brandColor;
+          font-size: 0.8rem;
+          font-weight: 300;
+        }
+      }
+      div.social-wrapper {
+        align-items: center;
+        gap: 1rem;
+        justify-content: space-between;
+        div.follow p {
+          font-weight: 600;
+          color: $brandColor;
+        }
+        div.icons {
+          align-items: center;
+          gap: 0.8rem;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+

@@ -100,3 +100,75 @@ div#content div.cards-wrapper div.container div.button .btn {
 div#content div.cards-wrapper div.container div.button .btn:hover {
   cursor: pointer;
 }
+
+div#footer {
+  background-image: url("../assets/img/footer-bg.jpg");
+}
+div#footer div.footer-wrapper {
+  font-size: 0.8rem;
+  justify-content: space-around;
+}
+div#footer div.footer-wrapper div.links-wrapper {
+  background-image: url("../assets/img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-size: 48%;
+  background-position: center right;
+}
+div#footer div.footer-wrapper div.links-wrapper div.links-list {
+  padding: 22px 0;
+  margin-right: 15px;
+}
+div#footer div.footer-wrapper div.links-wrapper div.links-list h4 {
+  color: white;
+  margin-bottom: 0.6rem;
+}
+div#footer div.footer-wrapper div.links-wrapper div.links-list ul {
+  padding-left: 0;
+  margin-bottom: 0.6rem;
+}
+div#footer div.footer-wrapper div.links-wrapper div.links-list ul li {
+  list-style-type: none;
+}
+div#footer div.footer-wrapper div.links-wrapper div.links-list ul li a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #797979;
+}
+div#footer div.footer-wrapper div.links-wrapper div.links-list ul li a:hover {
+  cursor: pointer;
+  color: white;
+}
+
+div#footer-nav {
+  background-color: #303030;
+  color: white;
+}
+div#footer-nav div.nav-wrapper {
+  align-items: center;
+  justify-content: space-between;
+  height: 12vh;
+}
+div#footer-nav div.nav-wrapper div.sign-up a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border: 2px solid #0082f9;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+div#footer-nav div.nav-wrapper div.social-wrapper {
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+div#footer-nav div.nav-wrapper div.social-wrapper div.follow p {
+  font-weight: 600;
+  color: #0082f9;
+}
+div#footer-nav div.nav-wrapper div.social-wrapper div.icons {
+  align-items: center;
+  gap: 0.8rem;
+}
+div#footer-nav div.nav-wrapper div.social-wrapper div.icons:hover {
+  cursor: pointer;
+}
