@@ -1,6 +1,6 @@
 <header>
     <div id="header" class="flex">
-        <img src="../assets/img/dc-logo.png" alt="DC logo" />
+        <img src="{{ asset('img/dc-logo.png') }}" alt="DC logo" />
         <ul class="flex">
             @foreach ($headerLinks as $headerLink)
             <li class="flex text-uppercase">
