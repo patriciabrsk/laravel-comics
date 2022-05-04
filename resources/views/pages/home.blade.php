@@ -9,7 +9,6 @@
       <div class="container">
         <h4 class="tag text-uppercase">Current series</h4>
         <div class="cards flex">
-            @dump('cards')
             @foreach ($cards as $card)
                 <div id="card">
                     <img src="{{ $card['thumb'] }}" alt="{{ $card['series'] }}" />

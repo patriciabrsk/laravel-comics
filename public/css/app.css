@@ -1,1 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+div#header {
+  align-items: center;
+  height: 12vh;
+  margin: 0 auto;
+  width: 70%;
+  justify-content: space-between;
+  font-size: 70%;
+  font-weight: 600;
+}
+div#header img {
+  width: 60px;
+  height: 60px;
+}
+div#header ul {
+  justify-content: space-evenly;
+}
+div#header ul li {
+  list-style-type: none;
+  align-items: center;
+  text-align: center;
+  height: 12vh;
+  padding: 10px;
+  border-bottom: 3px solid transparent;
+}
+div#header ul li:active, div#header ul li.active {
+  border-bottom: 3px solid #0082f9;
+}
+div#header ul li a {
+  text-decoration: none;
+  color: #303030;
+}
+div#header ul li a:active, div#header ul li a:hover, div#header ul li a.active {
+  color: #0082f9;
+}
+
+div#content div#jumbotron {
+  height: 42vh;
+  background-image: url("../assets/img/jumbotron.jpg");
+  background-size: cover;
+}
+div#content div.cards-wrapper {
+  background-color: #1c1c1c;
+  width: 100%;
+  align-items: center;
+}
+div#content div.cards-wrapper div.container {
+  position: relative;
+  padding: 3rem 0 1.2rem;
+}
+div#content div.cards-wrapper div.container h4.tag {
+  color: white;
+  padding: 0.3rem 0.9rem;
+  background-color: #0082f9;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+}
+div#content div.cards-wrapper div.container .cards {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div#content div.cards-wrapper div.container .cards div#card {
+  width: calc(16.6666666667% - 2rem);
+  margin-bottom: 1.5rem;
+  margin-right: 1rem;
+}
+div#content div.cards-wrapper div.container .cards div#card:hover {
+  cursor: pointer;
+}
+div#content div.cards-wrapper div.container .cards div#card img {
+  width: 100%;
+  height: 125px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 0;
+     object-position: 0 0;
+}
+div#content div.cards-wrapper div.container .cards div#card h5 {
+  font-size: 0.6rem;
+  margin-top: 5px;
+  color: white;
+}
+div#content div.cards-wrapper div.container div.button {
+  justify-content: center;
+}
+div#content div.cards-wrapper div.container div.button .btn {
+  background-color: #0082f9;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: white;
+  border: none;
+  padding: 0.6rem 2.5rem;
+}
+div#content div.cards-wrapper div.container div.button .btn:hover {
+  cursor: pointer;
+}
