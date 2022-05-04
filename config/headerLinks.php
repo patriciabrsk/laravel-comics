@@ -42,7 +42,7 @@ return [
         'current' => false,
     ],
     [
-        'text' => "Shop",
+        'text' => "Collectibles",
         'url' => "#",
         'current' => false,
     ],
