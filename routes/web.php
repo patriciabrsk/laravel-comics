@@ -18,7 +18,7 @@ Route::get('/', function () {
     $cards = config('comics');
     $data = [
         'headerLinks' => $headerLinks,
-        'cards' => config('comics')
+        'cards' => $cards
     ];
     return view('pages.home', $data);
 })->name('Home');
