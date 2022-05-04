@@ -4,7 +4,7 @@
     @include('includes.head')
 </head>
 <body>
-    @include('header')
+    @include('includes.header')
 
     <main>
         @yield('main-content')
