@@ -1,1 +1,37 @@
-//
+div#header {
+    align-items: center;
+    height: 12vh;
+    margin: 0 auto;
+    width: 70%;
+    justify-content: space-between;
+    font-size: 70%;
+    font-weight: 600;
+    img {
+      width: 60px;
+      height: 60px;
+    }
+    ul {
+      justify-content: space-evenly;
+      li {
+        list-style-type: none;
+        align-items: center;
+        text-align: center;
+        height: 12vh;
+        padding: 10px;
+        border-bottom: 3px solid transparent;
+        &:active,
+        &.active {
+          border-bottom: 3px solid $brandColor;
+        }
+        a {
+          text-decoration: none;
+          color: #303030;
+          &:active,
+          &:hover,
+          &.active {
+            color: $brandColor;
+          }
+        }
+      }
+    }
+  }
