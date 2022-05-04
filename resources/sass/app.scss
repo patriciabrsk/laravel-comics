@@ -35,3 +35,67 @@ div#header {
       }
     }
   }
+
+  div#content {
+    div#jumbotron {
+      height: 42vh;
+      background-image: url("../assets/img/jumbotron.jpg");
+      background-size: cover;
+    }
+    div.cards-wrapper {
+      background-color: #1c1c1c;
+      width: 100%;
+      align-items: center;
+      div.container {
+        position: relative;
+        padding: 3rem 0 1.2rem;
+        h4.tag {
+          color: white;
+          padding: 0.3rem 0.9rem;
+          background-color: $brandColor;
+          position: absolute;
+          top: 0;
+          transform: translateY(-50%);
+        }
+        .cards {
+          flex-wrap: wrap;
+          justify-content: center;
+
+          div#card {
+            width: calc((100% / 6) - 2rem);
+            margin-bottom: 1.5rem;
+            margin-right: 1rem;
+            &:hover {
+              cursor: pointer;
+            }
+            img {
+              width: 100%;
+              height: 125px;
+              object-fit: cover;
+              object-position: 0 0;
+            }
+            h5 {
+              font-size: 0.6rem;
+              margin-top: 5px;
+              color: white;
+            }
+          }
+        }
+        div.button {
+          justify-content: center;
+          .btn {
+            background-color: $brandColor;
+            font-size: 0.7rem;
+            font-weight: 400;
+            color: white;
+            border: none;
+            padding: 0.6rem 2.5rem;
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+
