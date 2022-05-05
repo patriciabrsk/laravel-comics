@@ -16,9 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $headerLinks = config('headerLinks');
     $cards = config('comics');
+    $menuLinks = config('shopMenu');
     $data = [
         'headerLinks' => $headerLinks,
-        'cards' => $cards
+        'cards' => $cards,
+        'menuLinks' => $menuLinks,
     ];
     return view('pages.home', $data);
 })->name('Home');
