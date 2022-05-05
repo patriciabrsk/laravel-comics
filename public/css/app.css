@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 header div#header {
   align-items: center;
   height: 12vh;
@@ -11,6 +24,7 @@ header div#header {
   width: 70%;
   justify-content: space-between;
   font-size: 70%;
+  padding: 10px;
   font-weight: 600;
 }
 header div#header img {
@@ -33,6 +47,7 @@ header div#header ul li:active, header div#header ul li.active {
 }
 header div#header ul li a {
   text-decoration: none;
+  text-transform: uppercase;
   color: #303030;
 }
 header div#header ul li a:active, header div#header ul li a:hover, header div#header ul li a.active {
@@ -41,7 +56,7 @@ header div#header ul li a:active, header div#header ul li a:hover, header div#he
 
 div#content div#jumbotron {
   height: 42vh;
-  background-image: url("../assets/img/jumbotron.jpg");
+  background-image: url("../public/img/jumbotron.jpg");
   background-size: cover;
 }
 div#content div.cards-wrapper {
