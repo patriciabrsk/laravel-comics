@@ -94,15 +94,15 @@ div#content div.cards-wrapper div.container .cards {
   flex-wrap: wrap;
   justify-content: center;
 }
-div#content div.cards-wrapper div.container .cards div#card {
+div#content div.cards-wrapper div.container .cards div.card {
   width: calc(16.6666666667% - 2rem);
   margin-bottom: 1.5rem;
   margin-right: 1rem;
 }
-div#content div.cards-wrapper div.container .cards div#card:hover {
+div#content div.cards-wrapper div.container .cards div.card:hover {
   cursor: pointer;
 }
-div#content div.cards-wrapper div.container .cards div#card img {
+div#content div.cards-wrapper div.container .cards div.card img {
   width: 100%;
   height: 125px;
   -o-object-fit: cover;
@@ -110,7 +110,7 @@ div#content div.cards-wrapper div.container .cards div#card img {
   -o-object-position: 0 0;
      object-position: 0 0;
 }
-div#content div.cards-wrapper div.container .cards div#card h5 {
+div#content div.cards-wrapper div.container .cards div.card h5 {
   font-size: 0.6rem;
   margin-top: 5px;
   color: white;
