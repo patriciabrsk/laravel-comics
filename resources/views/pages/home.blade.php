@@ -11,7 +11,7 @@
                     <div class="cards flex">
                         @foreach ($cards as $card)
                             <div class="card">
-                                <a href="{{ route('Product') }}">
+                                <a href="{{ route('Product', ['id' => $index]) }}">
                                     <img src="{{ $card['thumb'] }}" alt="{{ $card['series'] }}">
                                     <h5 class="text-uppercase">{{ $card['series'] }}</h5>
                                 </a>
