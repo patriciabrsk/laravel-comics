@@ -70,7 +70,7 @@ header div#header ul li a:active, header div#header ul li a:hover, header div#he
 
 div#content div#jumbotron {
   height: 42vh;
-  background-image: url("../../public/img/jumbotron.jpg");
+  background-image: url("/img/jumbotron.jpg");
   background-size: cover;
 }
 div#content div.cards-wrapper {
@@ -131,7 +131,7 @@ div#content div.cards-wrapper div.container div.button .btn:hover {
 }
 
 div#footer {
-  background-image: url("img/footer-bg.jpg");
+  background-image: url("/img/footer-bg.jpg");
 }
 div#footer div.footer-wrapper {
   font-size: 0.8rem;
