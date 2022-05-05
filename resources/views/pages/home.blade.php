@@ -29,7 +29,7 @@
         <div class="link flex">
             @foreach ($menuLinks as $link)
             <a class="flex">
-                <img src="{{ asset('img/{{$link['img']}}) }}" alt="{{ $link['text'] }}" />
+                <img src="{{ asset($link['img']) }}" alt="{{ $link['text'] }}">
                 <span>{{ $link['text'] }}</span>
             </a>
             @endforeach

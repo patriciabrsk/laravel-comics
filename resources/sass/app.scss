@@ -153,6 +153,40 @@ div#content {
     }
 }
 
+// SHOP MENU
+
+div#shop-menu {
+    background-color: $brandColor;
+    gap: 1rem;
+    justify-content: center;
+
+    div.menu-links {
+        justify-content: center;
+        color: white;
+        font-size: 0.7rem;
+
+        div.link {
+            justify-content: center;
+            padding: 30px 0;
+            gap: 3.5rem;
+
+            a {
+                margin: 0 auto;
+                align-items: center;
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                img {
+                    width: 45px;
+                    padding-right: 0.6rem;
+                }
+            }
+        }
+    }
+}
+
 // FOOTER
 
 div#footer {

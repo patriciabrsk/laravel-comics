@@ -130,6 +130,33 @@ div#content div.cards-wrapper div.container div.button .btn:hover {
   cursor: pointer;
 }
 
+div#shop-menu {
+  background-color: #0082f9;
+  gap: 1rem;
+  justify-content: center;
+}
+div#shop-menu div.menu-links {
+  justify-content: center;
+  color: white;
+  font-size: 0.7rem;
+}
+div#shop-menu div.menu-links div.link {
+  justify-content: center;
+  padding: 30px 0;
+  gap: 3.5rem;
+}
+div#shop-menu div.menu-links div.link a {
+  margin: 0 auto;
+  align-items: center;
+}
+div#shop-menu div.menu-links div.link a:hover {
+  cursor: pointer;
+}
+div#shop-menu div.menu-links div.link a img {
+  width: 45px;
+  padding-right: 0.6rem;
+}
+
 div#footer {
   background-image: url("/img/footer-bg.jpg");
 }
