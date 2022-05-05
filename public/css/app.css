@@ -17,6 +17,20 @@
   text-transform: uppercase;
 }
 
+html, body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+header div.blue-block {
+  background-color: #0082f9;
+  height: 22px;
+  justify-content: flex-end;
+  align-items: center;
+}
+header div.blue-block div.txt p {
+  color: white;
+  font-size: 0.8rem;
+}
 header div#header {
   align-items: center;
   height: 12vh;
@@ -56,7 +70,7 @@ header div#header ul li a:active, header div#header ul li a:hover, header div#he
 
 div#content div#jumbotron {
   height: 42vh;
-  background-image: url("../public/img/jumbotron.jpg");
+  background-image: url("../../public/img/jumbotron.jpg");
   background-size: cover;
 }
 div#content div.cards-wrapper {
@@ -117,14 +131,14 @@ div#content div.cards-wrapper div.container div.button .btn:hover {
 }
 
 div#footer {
-  background-image: url("../assets/img/footer-bg.jpg");
+  background-image: url("img/footer-bg.jpg");
 }
 div#footer div.footer-wrapper {
   font-size: 0.8rem;
   justify-content: space-around;
 }
 div#footer div.footer-wrapper div.links-wrapper {
-  background-image: url("../assets/img/dc-logo-bg.png");
+  background-image: url("/img/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-size: 48%;
   background-position: center right;

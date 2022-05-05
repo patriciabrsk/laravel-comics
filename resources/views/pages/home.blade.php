@@ -11,7 +11,7 @@
         <div class="cards flex">
             @foreach ($cards as $card)
                 <div id="card">
-                    <img src="{{ $card['thumb'] }}" alt="{{ $card['series'] }}" />
+                    <img src="{{ $card['thumb'] }}" alt="{{ $card['series'] }}">
                     <h5 class="text-uppercase">{{ $card['series'] }}</h5>
                 </div>
             @endforeach

@@ -13,11 +13,24 @@
     text-transform: uppercase;
 }
 
-html {
+html, body {
     font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 header {
+    div.blue-block {
+        background-color: $brandColor;
+        height: 22px;
+        justify-content: flex-end;
+        align-items: center;
+
+        div.txt {
+            p {
+                color: white;
+                font-size: 0.8rem;
+            }
+        }
+    }
     div#header {
         align-items: center;
         height: 12vh;
@@ -67,7 +80,7 @@ header {
 div#content {
     div#jumbotron {
         height: 42vh;
-        background-image: url("public/img/jumbotron.jpg");
+        background-image: url("../../public/img/jumbotron.jpg");
         background-size: cover;
     }
 
@@ -144,7 +157,7 @@ div#footer {
         justify-content: space-around;
 
         div.links-wrapper {
-            background-image: url("../assets/img/dc-logo-bg.png");
+            background-image: url("/img/dc-logo-bg.png");
             background-repeat: no-repeat;
             background-size: 48%;
             background-position: center right;
