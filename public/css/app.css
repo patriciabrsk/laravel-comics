@@ -228,3 +228,7 @@ div#footer-nav div.nav-wrapper div.social-wrapper div.icons {
 div#footer-nav div.nav-wrapper div.social-wrapper div.icons:hover {
   cursor: pointer;
 }
+
+.blue-bg {
+  background-color: #0082f9;
+}

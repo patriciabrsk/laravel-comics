@@ -9,7 +9,7 @@
                 <div class="container">
                     <h4 class="tag text-uppercase">Current series</h4>
                     <div class="cards flex">
-                        @foreach ($cards as $card)
+                        @foreach ($cards as $index => $card)
                             <div class="card">
                                 <a href="{{ route('Product', ['id' => $index]) }}">
                                     <img src="{{ $card['thumb'] }}" alt="{{ $card['series'] }}">
